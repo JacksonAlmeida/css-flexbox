@@ -1,0 +1,41 @@
+.flex-content
+{
+    display: flex;
+    height: 200;
+    border: 2px solid black;
+    max-width: 500px;
+}
+
+.item
+{
+    font-size: 20px;
+    height: 50px;
+    text-align: center;
+    width: 100px;
+    line-height: 50px;
+}
+
+.wrap
+{
+    flex-wrap: wrap;
+}
+
+.nowrap
+{
+    flex-wrap: nowrap;
+}
+
+.blue
+{
+    background-color: blue;
+}
+
+.green
+{
+    background-color: green;
+}
+
+.red
+{
+    background-color: red;
+}
