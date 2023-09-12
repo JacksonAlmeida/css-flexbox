@@ -5,7 +5,7 @@ phases:
 
     runtime-versions:
 
-      nodejs: 18
+      nodejs: 14
 
   pre_build:
 
