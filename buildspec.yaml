@@ -13,7 +13,6 @@ phases:
 
       - echo Build started on `date`
 
-      - npm ci
 
   build:
 
@@ -21,7 +20,6 @@ phases:
 
       - echo Build started on `date`
 
-      - npm run build
 
   post_build:
 
@@ -37,4 +35,3 @@ artifacts:
 
     - "**/*"
 
-  base-directory: dist
